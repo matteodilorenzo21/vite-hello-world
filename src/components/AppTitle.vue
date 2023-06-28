@@ -9,11 +9,12 @@ export default {
 </script>
 
 <template>
-    <h1>Alla scoperta di - {{ title }}</h1>
+    <h1 class="text-center py-3">Alla scoperta di - {{ title }}</h1>
 </template>
 
 <style scoped>
     h1 {
-        color: rgb(196, 196, 122);
+        color: rgb(255, 255, 190);
+        background-color: rgb(55, 55, 55);
     }
 </style>
